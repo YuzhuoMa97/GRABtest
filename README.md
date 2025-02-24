@@ -19,8 +19,8 @@ library(GRAB)
 ```{r}      
 library(devtools)  # author version: 2.4.5
 install_github("YuzhuoMa97/GRABtest")
-library(GRABtest)
-?GRABtest  # manual of GRABtest package
+library(GRAB)
+?GRAB  # manual of GRABtest package
 ```
 
 ### Replicate the genotype simulation in the package
