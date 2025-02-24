@@ -16,6 +16,13 @@ install_github("GeneticAnalysisinBiobanks/GRAB", INSTALL_opts=c("--no-multiarch"
 library(GRAB)
 ```
 
+```{r}      
+library(devtools)  # author version: 2.4.5
+install_github("YuzhuoMa97/GRABtest")
+library(GRABtest)
+?GRABtest  # manual of GRABtest package
+```
+
 ### Replicate the genotype simulation in the package
 ```{r}   
 ## Commen Variants with MAF ranging from (0.05, 0.5)
