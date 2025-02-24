@@ -1,4 +1,4 @@
-# GRAB
+# GRABtest
 
 ## Note on 2022-08-26
 
@@ -14,6 +14,13 @@ Rtools (https://cran.rstudio.com/bin/windows/Rtools/) should be installed before
 library(remotes)  # remotes library requires less dependency packages than devtools
 install_github("GeneticAnalysisinBiobanks/GRAB", INSTALL_opts=c("--no-multiarch"), ref="main")  # The INSTALL_opts is required in Windows OS.
 library(GRAB)
+```
+
+```{r}      
+library(devtools)  # author version: 2.4.5
+install_github("YuzhuoMa97/GRABtest")
+library(GRABtest)
+?GRABtest  # manual of GRABtest package
 ```
 
 ### Replicate the genotype simulation in the package
