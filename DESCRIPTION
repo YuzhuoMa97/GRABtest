@@ -1,4 +1,4 @@
-Package: GRABtest
+Package: GRAB
 Type: Package
 Title: Genome-wide Robust Analaysis for Biobank data (GRAB)
 Version: 0.1.2
